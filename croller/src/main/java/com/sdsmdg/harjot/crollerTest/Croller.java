@@ -200,7 +200,7 @@ public class Croller extends View {
         setProgressSecondaryCircleSize(a.getFloat(R.styleable.Croller_progress_secondary_circle_size, -1));
         setProgressPrimaryStrokeWidth(a.getFloat(R.styleable.Croller_progress_primary_stroke_width, 25));
         setProgressSecondaryStrokeWidth(a.getFloat(R.styleable.Croller_progress_secondary_stroke_width, 10));
-        setSweepAngle(a.getInt(R.styleable.Croller_sweep_angle, -1));
+        setSweepAngle(a.getInt(R.styleable.Croller_sweep_angle_int, -1));
         setStartOffset(a.getInt(R.styleable.Croller_start_offset, 30));
         setMax(a.getInt(R.styleable.Croller_max, 25));
         setMin(a.getInt(R.styleable.Croller_min, 1));
